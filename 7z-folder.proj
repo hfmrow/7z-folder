@@ -24,6 +24,7 @@
 	"GtkApplicationId": "id.application.name",
 	"ObjStructName": "obj",
 	"OptStructName": "opt",
+	"OpenFileCmd": "xdg-open",
 	"Gotk3Path": "github.com/gotk3/gotk3",
 	"GtkSourcePath": "\"github.com/hfmrow/gotk3_gtksource/source\"",
 	"GladeXmlFile": "",
@@ -40,8 +41,9 @@
 		"Activated": true,
 		"FirstCharLower": true,
 		"ScanSubDir": true,
-		"BinData": false,
-		"Directory": "assets/images",
+		"EmbedIncludeDirOnly": false,
+		"BinData": true,
+		"Directory": "assets",
 		"ExtInName": null,
 		"ScanExt": [
 			"*.png"
@@ -60,22 +62,27 @@
 		"MiscFunc": "gohFunc.go",
 		"Images": "gohImages.go",
 		"Assets": "gohAssets.go",
-		"BackupDir": "gohBackup"
+		"BackupDir": "gohBackup",
+		"StandaloneFiles": [
+			"miscFunc.go",
+			"objHandler.go",
+			"strNum.go"
+		]
 	},
 	"MainGladeVarNameMinimal": "mainGlade",
 	"FlagsBuild": {
 		"SortObjNames": true,
 		"SkipEmptyName": true,
 		"SkipLowercaseNames": true,
-		"DoBackup": false,
+		"DoBackup": true,
 		"CleanCode": false,
 		"AutoSwitchToEmbedded": false,
 		"MinimalBuild": false,
 		"ApplicationBuild": false,
 		"CheckIsGotk3ObjAvailable": true,
 		"WarnMissingFuncDecl": true,
+		"AddShrtLicToFile": true,
 		"WarnMissingObjDecl": true,
-		"AddLicToMainFile": true,
 		"NamingCSS": false,
 		"NamingCSSLowerCase": false,
 		"NamingCSSForce": false,
@@ -91,7 +98,8 @@
 		"MiscFunc": false,
 		"StartGtk": false,
 		"Images": false,
-		"License": false
+		"License": false,
+		"StndaloneAutoUpdt": true
 	},
 	"ObjectsCount": 27,
 	"ObjectsAdded": 0,

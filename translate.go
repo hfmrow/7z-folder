@@ -1,12 +1,17 @@
 // translate.go
 
-// File generated on Fri, 16 Apr 2021 22:27:39 using Gotk3 Objects Translate v1.5.2 2019-21 hfmrow
-
 /*
-* 	This program comes with absolutely no warranty.
-*	See the The MIT License (MIT) for details:
-*	https://opensource.org/licenses/mit-license.php
- */
+	Source file auto-generated on Mon, 26 Apr 2021 08:46:55 using Gotk3 Objects Translate v1.5.3 2019-21 hfmrow
+	©2018-21 hfmrow https://hfmrow.github.io
+
+	This software use gotk3 that is licensed under the ISC License:
+	https://github.com/gotk3/gotk3/blob/master/LICENSE
+
+	Copyright ©2019-21 hfmrow - 7z folder v1.6 github.com/hfmrow/7z-folder
+
+	This program comes with absolutely no warranty. See the The MIT License (MIT) for details:
+	https://opensource.org/licenses/mit-license.php
+*/
 
 package main
 
@@ -54,53 +59,53 @@ var translate = new(MainTranslate)
 // They'll be added to language file each time application started
 // when "devMode" is set at true.
 var sts = map[string]string{
-	`no`:    `No`,
-	`error`: `An error occured`,
-	`info`:  `Information`,
+	`cancel`:      `Cancel`,
+	`openf`:       `Open file`,
+	`outBaseDir2`: `upstream directories from the current base.`,
+	`errExec`:     `File execution error`,
+	`archAppnd`: `Added files
+to the archive`,
+	`allow`:   `Allow`,
+	`savef`:   `Save file`,
+	`confirm`: `Ask for confirmation`,
+	`count`:   `Count:`,
+	`brkSl`: `Some broken symbolic links were found:
+continue and ignore this alert ?`,
+	`removed`:       `Removed`,
+	`noArgs`:        `You haven't chosen any file to compress.`,
+	`sbWFiles`:      `File(s)`,
+	`unexpectedEnd`: `An unexpected issue has been encountered:`,
+	`error`:         `An error occured`,
+	`archUpdt`: `archive
+updated`,
+	`deny`:            `Deny`,
+	`ok`:              `Ok`,
+	`outBaseDir1`:     `The recently added files seem to be`,
+	`outBaseDir3`:     `The previous base directory was:`,
+	`added`:           `Added`,
+	`info`:            `Information`,
+	`sbCurrPath`:      `Path:`,
+	`noWCFile`:        `No way to choose this file`,
+	`no`:              `No`,
+	`notAllowed`:      `This is not allowed, please retry with different manner.`,
+	`noWCFld`:         `No way to choose this folder`,
+	`yes`:             `Yes`,
+	`continue`:        `Continue`,
+	`unexpectedError`: `Unexpected error: `,
 	`no7za`: `7Zip command not present (7za), please install it
 before trying using this program again.
 
 Informations can be found at:`,
-	`outBaseDir3`: `The previous base directory was:`,
-	`continue`:    `Continue`,
-	`yes`:         `Yes`,
-	`errExec`:     `File execution error`,
-	`brkSl`: `Some broken symbolic links were found:
-continue and ignore this alert ?`,
-	`savef`: `Save file`,
-	`archUpdt`: `archive
-updated`,
-	`for`:             `For`,
-	`sbCurrFile`:      `Current language file: `,
-	`permissionError`: `Some files appear unreadable or inaccessible.`,
-	`noArgs`:          `You haven't chosen any file to compress.`,
+	`useFName`:        `Use this filename ?`,
 	`warning`:         `Warning`,
-	`notAllowed`:      `This is not allowed, please retry with different manner.`,
-	`outBaseDir2`:     `upstream directories from the current base.`,
-	`allow`:           `Allow`,
 	`noFile`:          `There is no file / dir to compress.`,
-	`sbCurrPath`:      `Path:`,
-	`noWCFld`:         `No way to choose this folder`,
 	`outBaseDir4`:     `The new base directory will be changed to:`,
-	`cancel`:          `Cancel`,
-	`openf`:           `Open file`,
-	`unexpectedError`: `Unexpected error: `,
-	`deny`:            `Deny`,
+	`permissionError`: `Some files appear unreadable or inaccessible.`,
 	`archOvrWrt`: `archive
 overwritten`,
-	`noWCFile`:      `No way to choose this file`,
-	`unexpectedEnd`: `An unexpected issue has been encountered:`,
-	`sbWFiles`:      `File(s)`,
-	`archAppnd`: `Added files
-to the archive`,
-	`retry`:       `Retry`,
-	`added`:       `Added`,
-	`outBaseDir1`: `The recently added files seem to be`,
-	`ok`:          `Ok`,
-	`confirm`:     `Ask for confirmation`,
-	`count`:       `Count:`,
-	`removed`:     `Removed`,
-	`useFName`:    `Use this filename ?`,
+	`retry`:      `Retry`,
+	`for`:        `For`,
+	`sbCurrFile`: `Current language file: `,
 }
 
 // Translations structure with methods
@@ -248,7 +253,7 @@ var propPerObjects = []propObject{
 }
 
 // setTextToGtkObjects: read translations from structure and set them to object.
-// like this: setTextToGtkObjects(&mainObjects.TransLabelHint.Widget, "TransLabelHint")
+// like this: setTextToGtkObjects(&obj.TransLabelHint.Widget, "TransLabelHint")
 func (trans *MainTranslate) setTextToGtkObjects(obj *gtk.Widget, objectId string) {
 	for _, currObject := range trans.Objects {
 		if currObject.Id == objectId {
