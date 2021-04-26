@@ -1,0 +1,28 @@
+# github.com/gotk3/gotk3 v0.5.3-0.20210416043928-29f29f77ebb2
+## explicit
+github.com/gotk3/gotk3/cairo
+github.com/gotk3/gotk3/gdk
+github.com/gotk3/gotk3/glib
+github.com/gotk3/gotk3/gtk
+github.com/gotk3/gotk3/internal/callback
+github.com/gotk3/gotk3/internal/closure
+github.com/gotk3/gotk3/internal/slab
+github.com/gotk3/gotk3/pango
+# github.com/hfmrow/genLib v0.0.0-20210425195852-74413657c6b7
+## explicit
+github.com/hfmrow/genLib/files
+github.com/hfmrow/genLib/files/filesOperations
+github.com/hfmrow/genLib/slices
+github.com/hfmrow/genLib/strings
+github.com/hfmrow/genLib/tools/bench
+github.com/hfmrow/genLib/tools/errors
+github.com/hfmrow/genLib/tools/units/human_readable
+# github.com/hfmrow/gtk3Import v0.0.0-20210425210611-f14c6017d7e9
+## explicit
+github.com/hfmrow/gtk3Import/dialog
+github.com/hfmrow/gtk3Import/dialog/chooser
+github.com/hfmrow/gtk3Import/misc
+github.com/hfmrow/gtk3Import/pango/pangoSimple
+github.com/hfmrow/gtk3Import/pixbuff
+github.com/hfmrow/gtk3Import/pixbuff/misc/RGBA
+github.com/hfmrow/gtk3Import/tools/widgets
