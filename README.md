@@ -150,8 +150,6 @@ This operation indicates that the internal behavior of the software will be modi
 ### Used libraries
 
 - [Go bindings for GTK3](https://github.com/gotk3/gotk3)
-- [GitHub - andelf/go-curl: golang curl(libcurl) binding](https://github.com/andelf/go-curl)
-- [Golang GtkSourceView binding for use with gotk3](https://github.com/hfmrow/gotk3_gtksource)
 - And some personal libraries not yet published.
 
 ### Visit
