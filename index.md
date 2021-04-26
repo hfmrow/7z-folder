@@ -117,9 +117,6 @@ This operation indicates that the internal behavior of the software will be modi
 
 ## Os information:
 
-<details>
-  <summary>Built using</summary>
-
 | Name                                                       | Version / Info / Name                               |
 | ---------------------------------------------------------- | --------------------------------------------------- |
 | GOLANG                                                     | V1.16.3 -> GO111MODULE="on", GOPROXY="auto"         |
@@ -136,8 +133,6 @@ This operation indicates that the internal behavior of the software will be modi
 | [GtkSourceView](https://github.com/hfmrow/gotk3_gtksource) | 4.6.0                                               |
 | [LiteIDE](https://github.com/visualfc/liteide)             | 37.4 qt5.x                                          |
 | Qt5                                                        | 5.12.8 in /usr/lib/x86_64-linux-gnu                 |
-
-</details>
 
 - The compilation have not been tested under Windows or Mac OS.
 
