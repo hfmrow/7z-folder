@@ -1,0 +1,46 @@
+###########################################################
+# The following permit to ignore files without extension. #
+###########################################################
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# Unignore
+!LICENSE
+
+#########################################################
+# And now we indicate the files/dir we want to exclude. #
+#########################################################
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.bak
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+.vscode/*
+
+# Personal unwanted files and folders
+gohBackup/*
+package/*
+assets/artWork/*
+*.opt
+*.log
+*~
+*.debug
+*.xz
+*.7z
+*.SUM
+*.desktop
+git-push.sh
+*.code-workspace
