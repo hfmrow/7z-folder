@@ -2,6 +2,10 @@
 
 #### Last update 2021-04-26
 
+##### Adding [Go Modules support](https://github.com/golang/go/wiki/Modules#modules), which will be [mandatory with the usage of go v1.17](https://blog.golang.org/go116-module-changes).
+
+> We plan to drop support for GOPATH mode in Go 1.17. In other words, Go 1.17 will ignore `GO111MODULE`. If you have projects that do not build in module-aware mode, now is the time to migrate. If there is a problem preventing you from migrating, please consider filing an [issue](https://github.com/golang/go/issues/new) or an [experience report](https://github.com/golang/go/wiki/ExperienceReports).
+
 ---
 
 ##### This program is designed for . . .

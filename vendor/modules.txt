@@ -8,7 +8,7 @@ github.com/gotk3/gotk3/internal/callback
 github.com/gotk3/gotk3/internal/closure
 github.com/gotk3/gotk3/internal/slab
 github.com/gotk3/gotk3/pango
-# github.com/hfmrow/genLib v0.0.0-20210425195852-74413657c6b7
+# github.com/hfmrow/genLib v0.1.0
 ## explicit
 github.com/hfmrow/genLib/files
 github.com/hfmrow/genLib/files/filesOperations
@@ -17,7 +17,7 @@ github.com/hfmrow/genLib/strings
 github.com/hfmrow/genLib/tools/bench
 github.com/hfmrow/genLib/tools/errors
 github.com/hfmrow/genLib/tools/units/human_readable
-# github.com/hfmrow/gtk3Import v0.0.0-20210425210611-f14c6017d7e9
+# github.com/hfmrow/gtk3Import v0.1.0
 ## explicit
 github.com/hfmrow/gtk3Import/dialog
 github.com/hfmrow/gtk3Import/dialog/chooser

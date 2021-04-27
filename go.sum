@@ -112,11 +112,14 @@ github.com/gotk3/gotk3 v0.5.3-0.20210416043928-29f29f77ebb2 h1:i1hVLG1fZTlXGpuB1
 github.com/gotk3/gotk3 v0.5.3-0.20210416043928-29f29f77ebb2/go.mod h1:/hqFpkNa9T3JgNAE2fLvCdov7c5bw//FHNZrZ3Uv9/Q=
 github.com/hashicorp/golang-lru v0.5.0/go.mod h1:/m3WP610KZHVQ1SGc6re/UDhFvYD7pJ4Ao+sR/qLZy8=
 github.com/hashicorp/golang-lru v0.5.1/go.mod h1:/m3WP610KZHVQ1SGc6re/UDhFvYD7pJ4Ao+sR/qLZy8=
-github.com/hfmrow/genLib v0.0.0-20210425195852-74413657c6b7 h1:FpuOrLS1oYWqunkSrhClWjkjy3/3w4jTzmWT0UWBCQQ=
 github.com/hfmrow/genLib v0.0.0-20210425195852-74413657c6b7/go.mod h1:R0qaVrNnk7rd6E2siay9x8COlVyoSqLkV4y6PQ9gu5c=
+github.com/hfmrow/genLib v0.1.0 h1:SjlCxDBZ/9Vh/vWAqyo9UKw8ryo2ouNX8LZKZsb+g0o=
+github.com/hfmrow/genLib v0.1.0/go.mod h1:R0qaVrNnk7rd6E2siay9x8COlVyoSqLkV4y6PQ9gu5c=
 github.com/hfmrow/gotk3_gtksource v0.0.0-20210327093126-e677ca17ddec/go.mod h1:80Tn9GQn2BYnZsDjCqEXYleLZKJpOARB0LG20ZS11yU=
-github.com/hfmrow/gtk3Import v0.0.0-20210425210611-f14c6017d7e9 h1:uBNHHkjldmXeazgHw6I4meX8GYt/mSi+tBEbVgwuG0k=
+github.com/hfmrow/gotk3_gtksource v0.9.9/go.mod h1:Q0KvgAGRYnh/pXWgpHmwMEwqcC8NK+R4W42KTQNuHXA=
 github.com/hfmrow/gtk3Import v0.0.0-20210425210611-f14c6017d7e9/go.mod h1:J41kMfMjaVBnqIvh5CKFsvr5qSXb3AmTFF9FlvgAxvU=
+github.com/hfmrow/gtk3Import v0.1.0 h1:cM5CjjDW/N2KWmjIganqTNnAsKtIDQ/6BQmUKEkeKHw=
+github.com/hfmrow/gtk3Import v0.1.0/go.mod h1:Y4RcVpyeQ/mto2nGzu+7sRXgsVT4iXpfofcHDTFFFiA=
 github.com/ianlancetaylor/demangle v0.0.0-20181102032728-5e5cf60278f6/go.mod h1:aSSvb/t6k1mPoxDqO4vJh6VOCGPwU4O0C2/Eqndh1Sc=
 github.com/jstemmer/go-junit-report v0.0.0-20190106144839-af01ea7f8024/go.mod h1:6v2b51hI/fHJwM22ozAgKL4VKDeJcHhJFhtBdhmNjmU=
 github.com/jstemmer/go-junit-report v0.9.1/go.mod h1:Brl9GWCQeLvo8nXZwPNNblvFj/XSXhF0NWZEnDohbsk=
